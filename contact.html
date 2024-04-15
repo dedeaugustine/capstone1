@@ -32,20 +32,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="login.html">Login</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cart.html">Cart</a>
-                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="index.html" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
-
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="catalog.html">Catalog</a></li>
+                                <li><a class="dropdown-item" href="index.html">Catalog</a></li>
 
-                                <li><a class="dropdown-item" href="sznclearence.html">SZN Clearence</a></li>
-                                <li><a class="dropdown-item" href="contact.html">Contact/Support</a></li>
+                                <li><a class="dropdown-item" href="index.html">SZN Clearence</a></li>
+                                <li><a class="dropdown-item" href="index.html">Contact/Support</a></li>
                                 <hr class="dropdown-divider">
                         </li>
                         <li><a class="dropdown-item" href="index.html">Track Your Order</a></li>
@@ -60,10 +56,28 @@
             </div>
         </nav>
     </header>
-    <img src="c:\Users\dedea\OneDrive\Pictures\Saved Pictures\il_570xN.5135125073_pwld.avif" width="350" height="350"
-        alt="Kicks">
-    <img src="c:\Users\dedea\OneDrive\Pictures\Saved Pictures\kicksart.jpg" width="400" height="400" alt="Kicksart">
-    <img src="c:\Users\dedea\OneDrive\Pictures\Saved Pictures\images (7).jpg" width="300" height="300" alt="Gotem">
+    <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" enable>
+        <label for="floatingInputDisabled">Email address</label>
+      </div>
+      <div class="form-floating mb-3">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" enable></textarea>
+        <label for="floatingTextareaDisabled">Questions/Comments/Support</label>
+      </div>
+      <div class="form-floating mb-3">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" enable>Text here...</textarea>
+        <label for="floatingTextarea2Disabled">Comments</label>
+      </div>
+      <div class="form-floating">
+        <select class="form-select" id="floatingSelectDisabled" aria-label="Floating label disabled select example" enable>
+          <option selected>Open this select menu</option>
+          <option value="1">Refund Options</option>
+          <option value="2">Contact Support</option>
+          <option value="3">Model/Influencer Inquires</option>
+        </select>
+        <label for="floatingSelectDisabled">Customer Care</label>
+      </div>
+
     <!-- including bootstrap javascript file -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
