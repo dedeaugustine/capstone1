@@ -1,0 +1,10 @@
+.navbar{
+    background-color: rgb(76, 0, 255);
+}
+
+.navbar-text,
+.navbar-brand,
+.navbar-link,
+.nav-link.active {
+    color: antiquewhite !important;
+}

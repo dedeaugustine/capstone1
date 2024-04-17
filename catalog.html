@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Dede's Retail Kicks</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -27,13 +27,13 @@
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="shoes.html">Shoes</a>
+                            <a class="nav-link active" href="shoes.html">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="login.html">Login</a>
+                            <a class="nav-link active" href="login.html">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="cart.html">Cart</a>
+                            <a class="nav-link active" href="cart.html">Cart</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="index.html" role="button"
@@ -41,10 +41,10 @@
                                 Products
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="index.html">Catalog</a></li>
+                                <li><a class="dropdown-item" href="catalog.html">Catalog</a></li>
 
-                                <li><a class="dropdown-item" href="index.html">SZN Clearence</a></li>
-                                <li><a class="dropdown-item" href="index.html">Contact/Support</a></li>
+                                <li><a class="dropdown-item" href="sznclearence.html">SZN Clearence</a></li>
+                                <li><a class="dropdown-item" href="contact.html">Contact/Support</a></li>
                                 <hr class="dropdown-divider">
                         </li>
                         <li><a class="dropdown-item" href="index.html">Track Your Order</a></li>
@@ -59,46 +59,53 @@
             </div>
         </nav>
     </header>
-    <div class="card-group">
-        <div class="card">
-            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQNnppBx38e_ldyF7Suc4z9PqiVK7BzqiIpgE1FFT5TwHF4GKYW2hYHLpJddrTGRl_8G__WmySIP0vjjErkC_PRihWDWJstQxTXyurQKr7urjCk3JNwmVBUGw1yNv5lrx9zxz7jfRBU&usqp=CAc"
-                class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Off-White Air Force 1</h5>
-                <p class="card-text">Nike x Off-White Collaboration.</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-body-secondary">Price:$250</small>
-            </div>
-        </div>
-        <div class="card">
-            <img src="data:image/jpeg;base64,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"
-                class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Nike Tech Fleece</h5>
-                <p class="card-text">Clothing Appearal</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-body-secondary">Price:$50</small>
+    <section class="w-50 mx-auto">
+        <h1 class="text-center">CATALOG</h1>
+    </section>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8WXUdKyJ8e46dq6mlo38AQIuZhux1gmWi8g&s"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Off White x Air Force 1</p>
+                    <a href="cart.html" class="btn btn-primary">Add To Cart</a>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Price $350</small>
+                </div>
             </div>
         </div>
-        <div class="card">
-            <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQquuFXeJjeONLpGxj1kvY5d_-aUzsaaqu7Eh8lJpMewStQEHo3nSE879fr2mYqY2toGo&usqp=CAU"
-                class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Air Force 1</h5>
-                <p class="card-text">OG White Air Force 1</p>
-            </div>
-            <div class="card-footer">
-                <small class="text-body-secondary">Price:$100</small>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Nike Tech Fleece</p>
+                    <a href="cart.html" class="btn btn-primary">Add To Cart</a>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Price $50</small>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvJ5VLlEH7pnw9grZM2gCI9897Le2dYKdgSg&s"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Jordan 11 Concords</p>
+                    <a href="cart.html" class="btn btn-primary">Add To Cart</a>
+                </div>
+                <div class="card-footer">
+                    <small class="text-body-secondary">Price $180</small>
+                </div>
+            </div>
+        </div>
 
-    <!-- including bootstrap javascript file -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        <!-- including bootstrap javascript file -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 
 
 
