@@ -1,1 +1,1 @@
-# capstone1
+# Dede's Retail Kicks & Appearal Capstone 
